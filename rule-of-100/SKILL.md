@@ -1,6 +1,6 @@
 ---
 name: rule-of-100
-description: "Run Alex Hormozi's Rule of 100 on any task the user names: 100 primary actions a day, 100 days in a row, on one thing. Helps pick which 100 using Hormozi's own order, does the actions itself every day wherever it has the tools and the user's go-ahead, keeps the count and the streak honest, and reviews each week against Hormozi's benchmarks. Open this skill FIRST, before searching files for a run, whenever someone says 'rule of 100', 'start a rule of 100 on X', '100 a day', 'today's 100', 'yesterday's 100', 'log my 100', 'I did 60 today', 'what's my streak', 'how's the rule of 100 going', 'what day are we on', or wants a daily number they are held to on outreach, content, ads or any other repeatable action, even if they don't name Hormozi. The skill knows where runs live and how the count is kept, so guessing from files gives wrong numbers. Also use for the weekly review or the day-100 report of a run. Not for a one-off batch with no daily commitment."
+description: "Run Alex Hormozi's Rule of 100 on any task the user names: 100 primary actions a day, 100 days in a row, on one thing. Helps pick which 100 using Hormozi's own order, does the actions itself every day wherever it has the tools and the user's go-ahead, keeps going past every blocker until the day reaches 100, keeps the count and the streak honest, and reviews each week against Hormozi's benchmarks. Open this skill FIRST, before searching files for a run, whenever someone says 'rule of 100', 'start a rule of 100 on X', '100 a day', 'today's 100', 'yesterday's 100', 'log my 100', 'I did 60 today', 'what's my streak', 'how's the rule of 100 going', 'what day are we on', or wants a daily number they are held to on outreach, content, ads or any other repeatable action, even if they don't name Hormozi. The skill knows where runs live and how the count is kept, so guessing from files gives wrong numbers. Also use for the weekly review or the day-100 report of a run. Not for a one-off batch with no daily commitment."
 ---
 
 # Rule of 100
@@ -8,6 +8,19 @@ description: "Run Alex Hormozi's Rule of 100 on any task the user names: 100 pri
 Hormozi's claim in *$100M Leads* is that the simplest way to succeed at getting customers is to take a lot of actions, and that most people take far too few. This skill makes 100 a day happen, every day, and keeps a count nobody has to trust from memory.
 
 The task is whatever the user picks. One person's run is reaching out to 100 people about their business. Another's is 100 minutes of content. The skill is the same either way: pick the 100, do it daily, count it, review it weekly.
+
+## The standard: the day ends at 100
+
+The number is the job. Hormozi's point is that volume wins and most people stop far too early, so this skill treats 100 as the day's finish line and treats a problem as something to get past. Whoever runs the day, the skill or a scheduled job, holds to these:
+
+- **Keep moving.** Park a blocked action and start the next one at once. One form behind a login, one address that bounces or one open question never holds up the other ninety-nine.
+- **Refill instead of finishing early.** Start each day with about 150 targets for 100 actions, because some will drop out. When the list runs low, find more the same day from the run's source. Running out of targets is a task, and it is the skill's task.
+- **Go around.** When one medium is throttled or blocked, stop using it for the day and carry on in the next medium the go-ahead covers.
+- **Ask once, early, and keep working.** Put everything that needs the person (a fact, a login, a decision) into one short list as soon as it comes up, send it, and keep doing every action that doesn't depend on it. When the answers arrive, go back and finish what was parked.
+- **Watch the pace.** At every check-in, compare the count with the hours left in the day. When the day is behind, widen right away: run actions in parallel where the tools allow, open the next medium, or make the person's part smaller. Waiting for the evening is how days end at 40.
+- **No short day without a reason.** Close a day under 100 only after every allowed route has been tried. The report then gives the count, what stopped each route, and what would lift the ceiling tomorrow. An idle afternoon is not a reason.
+
+The skill is relentless about effort and strict about the count. However far behind the day is, four things hold. An action that didn't go out is never counted. A poor fit is never added to reach the number. Nothing goes outside the go-ahead, the platform's rules or the law. A person who said no is never contacted again. Those limits keep the account, the sending address and the user's name working on day 2 through day 100, which is where the results come from.
 
 ## The rule
 
@@ -58,6 +71,7 @@ Aim to have the first 100 done the same day. Setup is a few minutes of definitio
 3. **The unit and the number.** Actions or minutes, 100 a day. If the user wants a different number, use it, and record it as their adapted number so nobody later reads it as Hormozi's.
 4. **Who does the action: the skill or the person.** Default to the skill doing it. Go through the tools this session really has (email, messaging, a browser, a posting tool) and say which part of the action it can carry out end to end. What it can't do, it prepares so the person's part is one click or one paste each. Some actions are the person's by nature, such as 100 minutes of recording themselves: there the skill does the preparation and the person does the minutes.
 5. **The go-ahead, once.** Doing 100 outward actions a day unattended needs the user's clear yes, given one time at setup and written into `run.md`: which action, from which account, to what kind of person, with what message pattern, up to what number a day, and any spend limit. That standing yes covers exactly what it describes for the life of the run. Anything outside it (a new account, a new kind of recipient, a new offer, a cost) is asked about first. If the user wants to approve each day's batch before it goes, record that instead and send only after each approval.
+   Make the go-ahead wide enough to finish a day. Write into `run.md` the facts the action will need again and again (name, title, phone, company details, links), what the person accepts in advance (a site's standard terms, creating a free account), and what to do at a login wall or a robot test. Every question answered at setup is one that can't stop the day at action 37.
 6. **Can 100 a day really happen?** Look up the current limits and rules of every platform involved (daily sends, connection or friend requests, automation terms) instead of trusting memory, and note where and when you read them. If this session can't look anything up, say so, mark the limit as unverified in `run.md`, and tell the user to check it before the first full day. An account that gets restricted ends the run, and so does a sending address that lands in spam. Start on the platform where the user has the most contacts, as Hormozi says. Only when that platform can't carry 100 a day, keep the channel and spread the action across its media, which is how he defines reach-outs (email, text, direct message, calls). If the real ceiling is under 100, say so plainly with the number and let the user choose: a lower adapted number, or more media.
 7. **Where the 100 a day come from.** A reach-out run needs up to 10,000 people over 100 days. Name the source and how far it goes. If the skill can't see the list itself (phone contacts, followers), ask the user to export or paste it before day 1, because nothing can be prepared without names. Hormozi's own math for a warm list is that 1,000 contacts is ten days of work, so most warm lists run out well before day 100. Say which day that will be and what happens then: the run carries on with the same action on the next platform's list, and after that on people who don't know the user yet, which means reading `references/cold-reach-outs.md` and getting a fresh go-ahead. The clock doesn't restart. Note the change in `run.md`.
 8. **The lead measure and the result.** The lead measure is the first sign it works (replies, people taking the offer). The result is what the user wants (customers). Both get logged with the tracker (`--lead`, `--result`), neither replaces the count.
@@ -79,7 +93,7 @@ One run at a time is the default, because the rule is "pick one". A second run a
 
 Hormozi's fix for being ignored is to personalize and then give value fast, so at this volume each message still has to be true and fit its recipient. A hundred identical messages burn a hundred contacts. Use something real about the person, vary the wording, and hold the week's test variable steady across the day. Run whatever checks the project already has for outgoing copy.
 
-Stop and tell the user, instead of pushing on, when: a platform warns, throttles or blocks; messages start bouncing or landing in spam; the targets run out; a reply shows someone should not have been contacted (`block` them); or the next action would fall outside the go-ahead. Don't pad a day with poor fits to reach 100, and never count an action that failed to send.
+Some things close one route while the day carries on. A platform that warns, throttles or blocks is finished for the day. A sending address whose messages bounce or land in spam is finished until that is fixed. A reply that shows someone should not have been contacted means `block` them. Tell the user in the day's report, and keep going on every other route the go-ahead covers. Running low on targets is not a stop: refill from the source. The whole day stops only when the next action would fall outside the go-ahead and no allowed route is left. Don't pad a day with poor fits to reach 100, and never count an action that failed to send.
 
 The project's own rules still apply and win over this skill: who owns which channel, what needs approval before spend, who must never be contacted, what may be sent without review. The law applies too. Unsolicited email, texts and calls are regulated in most places, so check what applies to the user's country and recipients before a cold run.
 
@@ -89,6 +103,7 @@ The rule only works if it happens daily without anyone remembering to start it. 
 
 - The job runs today's 100, logs it, and sends the user one short message: the count, the streak, and anything that needs them.
 - It carries the same go-ahead as `run.md` and nothing wider. Give it only the tools that action needs.
+- A second run later in the day picks up anything parked, uses any answers the person has sent, and pushes the count to 100.
 - If the user's part is still open late in their day, it reminds them once.
 - Every scheduled run leaves its trace in `done.csv` and the tracker. A job that ran without error but logged nothing did not do the day.
 
@@ -103,7 +118,7 @@ A report for a day that has already passed is fine when the work was done on tha
 ## Missed and short days (house rules, not Hormozi's)
 
 - A day counts for what was done on it. A day with nothing done is a missed day, and a short day is a short day. Neither is rounded up or repaired by doing 200 on another day.
-- The streak resets, the 100-day clock keeps running, and the run goes on. One missed day is not a reason to restart or to quit. Say it plainly, with no lecture, and get today's 100 moving.
+- The streak resets, the 100-day clock keeps running, and the run goes on. One missed day is not a reason to restart or to quit. Say it plainly, with no lecture, name what stopped it, fix that cause, and get today's 100 moving.
 - Never log a day in advance.
 
 ## Weekly review
@@ -125,3 +140,7 @@ Then one line of judgement in Hormozi's order: more before better before new. If
 ## Day 100
 
 Write the results report: total actions, days hit, the lead measure, the results, what the weekly tests taught, in plain numbers with their source. Recommend one of more (raise the number), better (keep testing) or new (the next channel in his order). Turn off whatever schedule was set up. The tracker marks the run finished by itself after day 100. To end a run early, use `finish` with the reason, which keeps the log.
+
+## Credit
+
+The Rule of 100 is Alex Hormozi's, from his book *$100M Leads*. The channel methods and benchmarks in `references/` are summaries of his work. Say so whenever you explain the rule to a user, and point them to the book. This skill is an independent project. It is not affiliated with or endorsed by Alex Hormozi or Acquisition.com.

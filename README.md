@@ -4,6 +4,8 @@ Alex Hormozi's Rule of 100, from *$100M Leads*: do 100 primary actions every day
 
 The rule is easy to state and hard to keep. This skill is for keeping it. You tell Claude the task. It sets up the run, does the day's 100 itself where it has the tools and your go-ahead, keeps the count with a script instead of from memory, and reviews the week against the benchmarks Hormozi gives in the book.
 
+It is built to finish the day. A blocked action gets parked and the next one starts. When the list runs low, it finds more targets. When one platform slows it down, it moves to the next one you approved. Anything it needs from you arrives as one short list while it keeps working. It stays inside your go-ahead, the platforms' rules and the law, and it never counts an action that didn't go out.
+
 It works for whatever task you choose. Mine would be reaching out to 100 people a day about my business. Yours might be 100 minutes of content, or 100 follow-ups.
 
 ## What it does
@@ -15,6 +17,7 @@ It works for whatever task you choose. Mine would be reaching out to 100 people 
 | Your go-ahead, once | Which action, from which account, to what kind of person, up to how many a day. Inside that, it works without asking again. Outside it, it asks first. |
 | Check that 100 a day can happen | Where the session can search the web, it looks up the current limits and rules of the platforms involved before the first day, and says so when it can't. Some won't carry 100 a day from one account, and some ban automated sending. When that's the case it tells you the real number and your options. |
 | Do the day's 100 | With email or messaging tools connected, it sends. Where it can't act for you, it prepares everything so your part is one click or one paste per item. For content, it has the day's topics and hooks ready so your 100 minutes go to making. |
+| Finish the day | It starts with more targets than it needs, parks what is blocked, refills the list, and closes a day under 100 only after every route you approved has been tried. Then it tells you what stopped each one. |
 | Every day | If your setup can run scheduled jobs, it sets one up and sends you one short message a day with the count and the streak. If it can't, it tells you, and offers the day's 100 whenever you open a session. |
 | Count | A script keeps the count and a record of who was contacted, and refuses a second first message to the same person. A day is hit, short or missed. Doing 240 tomorrow doesn't repair a missed day. Each day is marked as seen by the skill or reported by you. |
 | Review each week | Actions done, the reply rate next to Hormozi's benchmark for that channel, what this week's one test showed, and next week's test. Then a call in his order: more, then better, then new. |
